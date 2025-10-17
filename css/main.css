@@ -1,0 +1,58 @@
+header {
+  background-color: #3498db;
+  color: white;
+  padding: 20px;
+}
+header h1 {
+  margin: 0;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+header nav ul li {
+  margin: 0 10px;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+header nav ul li button {
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+header nav ul li button:hover {
+  background-color: blueviolet;
+  border-color: blueviolet;
+  color: white;
+}
+
+footer {
+  background-color: #2ecc71;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+main section {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+}
+main section h2 {
+  color: #3498db;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,23 @@
+@use "variables";
+@use "mixins";
+@use "header";
+@use "footer";
+
+body {
+  font-family: variables.$font-stack;
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+
+  section {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+
+    h2 {
+      color: variables.$primary-color;
+    }
+  }
+}
